@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Ken cameron">
+    <title>Training Record: Menu</title>
+
+    <!-- Bootstrap core CSS -->
+<script src="js/update.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/time.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column h-100">
+<main role="main" class="flex-shrink-0">
+  <div class="container">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h1>Traffic Capture</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="container-fluid">
+
+      <div class="row mb-3 ">
+        <div class="col text-center">
+          <button type="submit" class="btn btn-primary btn-block" onClick="window.location.href='/index.html';"><h3>&nbsp;Add/Undo Traffic&nbsp;</h3></button>
+        </div>
+        <div class="col text-center">
+          <button type="submit" class="btn btn-primary btn-block" onClick="window.location.href='/summary.html';"><h3>&nbsp;Session Summary&nbsp;</h3></button>
+        </div>
+        <div class="col text-center">
+          <button type="submit" class="btn btn-primary btn-block" onClick="command_logout();"><h3>&nbsp;Logout&nbsp;</h3></button>
+        </div>
+      </div>
+
+<div class="row mb-3 ">
+        <div class="col text-center">
+          <button type="submit" class="btn btn-primary btn-block" onClick="return false;"><h3>&nbsp;</h3></button>
+        </div>
+        <div class="col text-center">
+          <a href="/download.csv" download="download.csv" target="_blank"><button type="submit" class="btn btn-primary btn-block" ><h3>&nbsp;Traffic Summary&nbsp;</h3></button></a>
+        </div>
+        <div class="col text-center">
+          <button type="submit" class="btn btn-primary btn-block" onClick="return false;"><h3>&nbsp;</h3></button>
+        </div>
+      </div>
+    </div>
+</form>
+</div>
+</main>
+
+<footer class="footer mt-auto py-3">
+  <div class="container">
+<div style="text-align:center">(C) Ken Cameron 2022, University of Bath. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>
