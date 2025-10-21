@@ -4,4 +4,12 @@ Added functionality to the backend of a traffic counting website, where users ma
 \
 Helped strengthen backend development skills, data handling, validation practices and practised secure coding and database interactions. \
 \
+To run the website: \
+Make sure you are running the server_ANS.py script inside of the InitialRelease directory. \
+python server_ANS.py [port_number] \
+http://localhost:[port_number] \
+test username: test1 \
+test password: password1 \
+
+
 Languages used - Python, SQL
