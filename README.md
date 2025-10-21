@@ -9,7 +9,7 @@ Make sure you are running the server_ANS.py script inside of the InitialRelease 
 python server_ANS.py [port_number] \
 http://localhost:[port_number] \
 test username: test1 \
-test password: password1 \
+test password: password1
 
 
 Languages used - Python, SQL
